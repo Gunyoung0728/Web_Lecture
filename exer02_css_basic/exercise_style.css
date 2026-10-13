@@ -1,0 +1,253 @@
+body{
+    background-color: gray;
+
+    font-family: Arial, "Noto Sans KR" sans-serif;
+}
+
+.background {
+    background-color: white;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(11, 139, 199);
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+header h1 {
+    margin: 1px;
+
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+header p {
+    margin: 1px;
+
+    font-size: 15px;
+}
+
+.profile {
+    background-color: rgb(236, 199, 35);
+    
+    margin: 20px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 3px solid white;
+
+    margin-right: 30px;
+}
+
+.profile_text h2{
+    font-size: 25px;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.profile_text p{
+    font-size: 15px;
+}
+
+.interest {
+    background-color: lightgray;
+
+    margin: 20px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+}
+
+.interest h2 {
+    font-size: 20px;
+
+    padding-bottom: 10px;
+
+    color:coral;
+
+    border-bottom: 2px solid coral;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+}
+
+.skills span {
+    padding: 5px 15px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+.html{
+    background-color: rgb(255, 102, 0);
+    color: white;
+}
+
+.html:hover{
+    background-color: rgb(255, 153, 51);
+}
+
+.css{
+    background-color: rgb(0, 102, 204);
+
+    color: white;
+}
+
+.css:hover{
+    background-color: rgb(51, 153, 255);
+}
+
+.javascript{
+    background-color: rgb(255, 208, 0);
+
+    color: white;
+}
+
+.javascript:hover{
+    background-color: rgb(255, 228, 108);
+}
+
+.git{
+    background-color: rgb(255, 51, 0);
+
+    color: white;
+}
+
+.git:hover{
+    background-color: rgb(248, 136, 98);
+}
+
+.introduction {
+    background-color: lightgray;
+
+    margin: 20px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+}
+
+.introduction h2 {
+    font-size: 20px;
+
+    padding-bottom: 10px;
+
+    color:deeppink;
+
+    border-bottom: 2px solid deeppink;
+}
+
+.contact{
+    background-color: lightgray;
+
+    margin: 20px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+}
+
+.contact h2 {
+    font-size: 20px;
+
+    padding-bottom: 10px;
+
+    color:mediumseagreen;
+
+    border-bottom: 2px solid mediumseagreen;
+}
+
+.box{
+    display: flex;
+
+    align-items: center;
+
+    margin: 15px 0;
+}
+
+.box label {
+    font-size: 15px;
+    font-weight: bold;
+
+    width: 60px;
+}
+
+.box input {
+    width: 200px;
+
+    padding: 5px;
+
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.box:nth-child(2) input {
+    background-color: rgb(198, 255, 145);
+}
+
+.box:nth-child(3) input {
+    background-color: rgb(162, 253, 150);
+}
+
+button{
+    width: 120px;
+    height: 40px;
+
+    margin-left: 60px;
+
+    padding: 10px;
+
+    border-radius: 5px;
+    border: none;
+
+    background-color: mediumseagreen;
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: seagreen;
+}
+
+footer {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    font-size: 10px;
+
+    padding: 10px;
+}
