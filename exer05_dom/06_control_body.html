@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        window.onload = function(){
+            let attri = document.getElementById('text');
+            //기존 속성 가져오기
+            let colot = attri.getAttribute('style');
+            //속성 값 변경하기
+            attri.setAttribute('style', colot + 'color: orange;');
+        };
+    </script>
+</head>
+<body>
+    <p id="text" style="color: blue;">안녕하세요!</p>
+</body>
+</html>
